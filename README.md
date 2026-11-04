@@ -51,14 +51,14 @@ export GEMINI_API_KEY="YOUR_KEY_HERE"
 ```bash
 python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
-The FastAPI backend runs at `http://127.0.0.1:8000`. API documentation is available at `http://127.0.0.1:8000/docs`.
+The FastAPI backend runs at [http://127.0.0.1:8000](http://127.0.0.1:8000). API documentation is available at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
 
 ### 3. Serve the Mission Control Frontend
 
 ```bash
 python -m http.server 3000 --directory "Frontend/satquery_ai_vision_language_mission_control"
 ```
-Open `http://localhost:3000/code.html` in your browser.
+Open the [SatQuery AI Mission Control frontend](http://localhost:3000/code.html) in your browser.
 
 ## Contract Specification
 
